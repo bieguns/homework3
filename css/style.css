@@ -63,10 +63,11 @@ table{
 
 /*Styles for table header and table data elements*/
 th.colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
 }
