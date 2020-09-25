@@ -24,6 +24,8 @@ body{
   background-position: center;
 }
 
+/*Section for Main Elements*/
+
 main{
   margin-bottom: 100px;
 }
@@ -50,6 +52,9 @@ a{
   text-decoration-style: wavy;
 }
 
+
+/*Section for Table Elements*/
+
 table{
   margin: auto;
 
@@ -57,8 +62,8 @@ table{
   border-radius: 10px;
 }
 
-/*class styles*/
-.colhead{
+/*Styles for table header and table data elements*/
+th.colhead{
   background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;
@@ -67,7 +72,7 @@ table{
   text-transform: uppercase;
 }
 
-.rowhead{
+th.rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
 }
@@ -78,9 +83,11 @@ td{
   padding: 10px;
 }
 
+/*Styles for table rows by even and odd*/
 tr:nth-child(2n){
   background-color: #D1D1D1;
 }
+
 tr:nth-child(2n+1){
   background-color: transparent;
 }
@@ -89,11 +96,7 @@ tr:hover{
   background-color: rgba(126, 8, 32, .25);
 }
 
-*{
-
-}
-
-/*Rounding corners of cells */
+/*Styles for rounding corner cells in table*/
 thead tr:first-child th:first-child{
   border-top-left-radius: 10px;
 }
@@ -109,6 +112,8 @@ tbody tr:last-child th:first-child{
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
+
+/*Section for Footer Element*/
 
 footer{
   width: 100%;
