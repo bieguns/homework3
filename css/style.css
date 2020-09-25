@@ -48,8 +48,7 @@ p{
 a{
   font-size: 16px;
   color: #B21F50;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+  text-decoration: underline wavy;
 }
 
 
@@ -121,8 +120,8 @@ footer{
   background: #000000;
   text-align: center;
   color: #FFFFFF;
-
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
